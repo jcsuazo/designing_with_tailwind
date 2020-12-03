@@ -6,28 +6,43 @@
     <title>test</title>
     <link rel="stylesheet" href="/public/build/tailwind.css" />
   </head>
-  <body class="bg-gray-100">
-    <div class="px-8 py-12">
-      <img class="h-10" src="/public/img/logo.svg" alt="workcation logo" />
-      <!-- <div class="text-center"></div> -->
-      <img
-        class="h-80 w-full mt-8 rounded-xl shadow-lg"
-        src="https://images.unsplash.com/photo-1530377995122-4484c3886b33?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80"
-        alt="woman on the beach"
-      />
-      <p class="mt-8 text-2xl font-bold text-gray-800 leading-tight">
-        You can work from anywhere.
-        <span class="text-indigo-500">Take advantage of it.</span>
-      </p>
-      <p class="mt-2 text-gray-600">
-        Workcation helps you find work-friendly rentals in beautiful locations
-        so you can enjoy some nice weather even when you're on vacation.
-      </p>
-      <button
-        class="mt-3 bg-indigo-500 px-5 text-sm py-3 rounded-lg text-white uppercase tracking-wider font-bold"
+  <body class="bg-gray-300">
+    <div class="flex bg-gray-100">
+      <div
+        class="px-8 py-12 max-w-md max-w-md sm:max-w-xl lg:max-w-full mx-auto sm:px-16 lg:w-1/2"
       >
-        <a href="#">Book Your escape</a>
-      </button>
+        <!-- //logo -->
+        <img class="h-10" src="/public/img/logo.svg" alt="workcation logo" />
+        <!-- image girl -->
+        <img
+          class="h-64 w-full mt-8 rounded-xl shadow-lg object-cover object-center lg:hidden"
+          src="https://images.unsplash.com/photo-1530377995122-4484c3886b33?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80"
+          alt="woman on the beach"
+        />
+        <p
+          class="mt-8 text-2xl font-bold text-gray-800 leading-tight sm:text-3xl lg:text-2xl"
+        >
+          You can work from anywhere.
+          <br class="inline" />
+          <span class="text-indigo-500">Take advantage of it.</span>
+        </p>
+        <p class="mt-2 text-gray-600 sm:text-xl sm:mt-4">
+          Workcation helps you find work-friendly rentals in beautiful locations
+          so you can enjoy some nice weather even when you're not on vacation.
+        </p>
+        <button
+          class="mt-3 sm:mt-6 bg-indigo-500 px-5 text-sm sm:text-base py-3 rounded-lg text-white uppercase tracking-wider font-bold shadow-xl"
+        >
+          <a href="#">Book Your escape</a>
+        </button>
+      </div>
+      <div class="hidden lg:relative lg:block w-1/2">
+        <img
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          src="https://images.unsplash.com/photo-1530377995122-4484c3886b33?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80"
+          alt="woman on the beach"
+        />
+      </div>
     </div>
   </body>
 </html>
